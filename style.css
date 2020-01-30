@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: auto;
+    width: 1024px;
+    height: 1000px;
+    background-color: rgb(242, 242, 242);
+}
+
+.personal{
+    width: 100%;
+    height: 40px;
+    background-color: dimgray;
+}
+
+.data{
+    color: white;
+    font-size: 16px;
+    float: left;
+    height: 100%;
+    margin: 10px 50px;
+    text-transform: uppercase;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    margin-top: 0;
+}
+
+.hex{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin-left: 20px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.title{
+    width: 784px;
+    height: 200px;
+    /* background-color: saddlebrown; */
+    float: left;
+    text-align: center;
+}
+
+.name{
+    top: 25%;
+    position: relative;
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    border-bottom: 4px solid dimgray;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+span{
+    text-transform: uppercase;
+    color: dimgray;
+}
+
+.tit{
+    top: 30%;
+    position: relative;
+    font-size: 20px;
+    /* width: 50%; */
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    /* background-color: saddlebrown; */
+    margin-top: 40px;
+}
+
+.left{
+    width: 48%;
+    float: left;
+    height: 100%;
+    /* background-color: seashell; */
+    margin: 10px;
+}
+
+.right{
+    width: 48%;
+    float: right;
+    height: 100%;
+    /* background-color: seashell; */
+    margin: 10px;
+}
+
+h1{
+    color: rgb(45, 148, 180);
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 36px;
+    border-bottom: 1px solid black;
+}
+
+.exp, .edu{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hex{
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    display: inline-block;
+    floa
+}
+
+.name{
+    width: calc(100%-200px);
+    margin: 0;
+    display: inline-block;
+    background-color: red;
+    height: 100%;
+    float: left;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 800px;
+    background-color: fuchsia;
+    margin-top: 10px;
+} */
+
+/* .left{
+    width:48%;
+    height: 700px;
+    background-color: cyan;
+    float: left;
+    margin: 10px;
+}
+
+.right{
+    width:48%;
+    height: 700px;
+    background-color: cyan;
+    margin: 10px;
+    float: right;
+} */
