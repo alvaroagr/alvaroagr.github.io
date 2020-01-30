@@ -108,6 +108,17 @@ h1{
     margin-bottom: 40px;
 }
 
+ p.loc {
+    font-weight: bold;
+    color: rgb(45, 148, 180)
+}
+
+p.title{
+    font-style: italic;
+    width: 100%;
+    text-align: left;
+    height: 20px;
+}
 
 
 
