@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -11,7 +14,8 @@
     background-color: rgb(242, 242, 242);
 }
 
-.personal{
+
+.contact{
     width: 100%;
     height: 40px;
     background-color: dimgray;
@@ -24,12 +28,13 @@
     height: 100%;
     margin: 10px 50px;
     text-transform: uppercase;
+    text-align: center;
 }
+
 
 .header{
     width: 100%;
     height: 200px;
-    /* background-color: blue; */
     margin-top: 0;
 }
 
@@ -42,22 +47,58 @@
     clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
 }
 
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+
+.left-col{
+    width: 45%;
+    float: left;
+    height: 100%;
+    margin: 10px;
+}
+
+
+.experience{
+    overflow: hidden;
+}
+
+.company{
+    width: 200px;
+    float: left;
+}
+
+.position{
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
 .title{
     width: 784px;
     height: 200px;
-    /* background-color: saddlebrown; */
     float: left;
     text-align: center;
 }
 
 .name{
-    top: 25%;
+    top: 20%;
     position: relative;
-    font-size: 40px;
+    font-size: 50px;
     width: 50%;
     margin: auto;
-    border-bottom: 4px solid dimgray;
-    color: dodgerblue;
+    border-bottom: 2px solid dimgray;
+    color: rgb(181, 224, 243);
     font-weight: bold;
 }
 
@@ -73,22 +114,9 @@ span{
     /* width: 50%; */
 }
 
-.content{
-    width: 100%;
-    height: 100%;
-    /* background-color: saddlebrown; */
-    margin-top: 40px;
-}
 
-.left{
-    width: 48%;
-    float: left;
-    height: 100%;
-    /* background-color: seashell; */
-    margin: 10px;
-}
 
-.right{
+.right-col{
     width: 48%;
     float: right;
     height: 100%;
@@ -104,7 +132,7 @@ h1{
     border-bottom: 1px solid black;
 }
 
-.exp, .edu{
+.exp, .education{
     margin-bottom: 40px;
 }
 
@@ -112,8 +140,7 @@ p{
     color: dimgray;
 }
 
- p.loc {
-    font-weight: bold;
+ .highlight {
     color: rgb(45, 148, 180)
 }
 
@@ -149,13 +176,59 @@ p.entry{
     margin-bottom: 10px;
 }
 
-.dot {
+.dot, .dot-gray {
     height: 16px;
     width: 16px;
     background-color: rgb(45, 148, 180);
     border-radius: 50%;
     display: inline-block;
 }
+
+.dot-gray{
+    background-color: rgb(45, 148, 180, .25);
+}
+
+.entry{
+    width: 100%;
+}
+
+.skill{
+    width: 200px;
+    float: left;
+}
+
+.score{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,3 +274,5 @@ p.entry{
     text-decoration: none;
     cursor: pointer;
   }
+
+
