@@ -14,24 +14,25 @@
 }
 
 .contact,footer{
-    width: 100%;
-    height: 40px;
-    background-color: dimgray;
+    width: 1004;
+    padding: 10px;
+    background-color: rgb(89, 89, 89);
+    color: white;
+    height: 20px;
 }
 
-.data{
-    color: white;
-    font-size: 16px;
+.contact div{
     float: left;
+    width: 320px;
     height: 100%;
-    margin: 10px 50px;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .header{
     width: 100%;
     height: 200px;
+    padding-top: 20px;
 }
 
 .hex{
@@ -71,7 +72,7 @@
     margin-left: 20px;
 }
 
-.title{
+.website-title{
     width: 784px;
     height: 200px;
     float: left;
@@ -94,11 +95,10 @@ span{
     color: dimgray;
 }
 
-.tit{
-    top: 30%;
+.business{
+    top: 25%;
     position: relative;
     font-size: 20px;
-    /* width: 50%; */
 }
 
 
@@ -106,7 +106,6 @@ span{
     width: 48%;
     float: right;
     height: 100%;
-    /* background-color: seashell; */
     margin: 10px;
 }
 
@@ -197,7 +196,7 @@ p.entry{
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 1024px; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
@@ -214,5 +213,3 @@ p.entry{
     text-decoration: none;
     cursor: pointer;
   }
-
-
