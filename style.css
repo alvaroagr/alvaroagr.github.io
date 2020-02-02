@@ -35,7 +35,8 @@
     padding-top: 20px;
 }
 
-.hex{
+.image{
+    background-image: url("https://raw.githubusercontent.com/alvaroagr/alvaroagr.github.io/master/banner.JPG");
     width: 200px;
     height: 200px;
     float: left;
